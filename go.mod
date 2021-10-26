@@ -1,23 +1,17 @@
-module github.com/lintingzhen/commitizen-go
+module github.com/qijinzhi/commitizen-go
 
-go 1.13
+go 1.16
 
 require (
-	github.com/coreos/go-etcd v2.0.0+incompatible // indirect
-	github.com/cpuguy83/go-md2man v1.0.10 // indirect
-	github.com/fsnotify/fsnotify v1.4.9 // indirect
+	github.com/AlecAivazis/survey/v2 v2.3.2
+	github.com/mattn/go-colorable v0.1.11 // indirect
+	github.com/mgutz/ansi v0.0.0-20200706080929-d51e80ef957d // indirect
 	github.com/mitchellh/go-homedir v1.1.0
-	github.com/mitchellh/mapstructure v1.3.3
-	github.com/pelletier/go-toml v1.8.0 // indirect
-	github.com/spf13/afero v1.3.2 // indirect
-	github.com/spf13/cast v1.3.1 // indirect
-	github.com/spf13/cobra v1.0.0
-	github.com/spf13/jwalterweatherman v1.1.0 // indirect
-	github.com/spf13/pflag v1.0.5 // indirect
-	github.com/spf13/viper v1.7.0
-	github.com/ugorji/go/codec v0.0.0-20181204163529-d75b2dcb6bc8 // indirect
-	golang.org/x/sys v0.0.0-20200727154430-2d971f7391a4 // indirect
-	golang.org/x/text v0.3.3 // indirect
-	gopkg.in/AlecAivazis/survey.v1 v1.8.8
-	gopkg.in/ini.v1 v1.57.0 // indirect
+	github.com/mitchellh/mapstructure v1.4.1
+	github.com/spf13/cast v1.4.1 // indirect
+	github.com/spf13/cobra v1.2.1
+	github.com/spf13/viper v1.8.1
+	golang.org/x/sys v0.0.0-20211023085530-d6a326fbbf70 // indirect
+	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211 // indirect
+	golang.org/x/text v0.3.7 // indirect
 )

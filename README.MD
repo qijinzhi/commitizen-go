@@ -11,13 +11,9 @@ Contents
 ## Getting Started
 ### installation with Homebrew:
 ```
-$ brew tap lintingzhen/tap
+$ brew tap qijinzhi/tap
 $ brew install commitizen-go
 $ sudo commitizen-go install
-```
-### installation with AUR package (Arch Linux):
-```
-$ yay commitizen-go
 ```
 ### installation with source code:
 ```

@@ -6,9 +6,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/lintingzhen/commitizen-go/commit"
-	"github.com/lintingzhen/commitizen-go/git"
 	homedir "github.com/mitchellh/go-homedir"
+	"github.com/qijinzhi/commitizen-go/commit"
+	"github.com/qijinzhi/commitizen-go/git"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

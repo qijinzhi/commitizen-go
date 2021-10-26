@@ -1,5 +1,5 @@
 COMMIT_REVISION := $(shell git log --pretty=%h -1)
-REVISION_FLAG := "-X github.com/lintingzhen/commitizen-go/cmd.revision=${COMMIT_REVISION}"
+REVISION_FLAG := "-X github.com/qijinzhi/commitizen-go/cmd.revision=${COMMIT_REVISION}"
 TARGET := commitizen-go
 GOFILES := $(wildcard *.go) $(wildcard cmd/*.go) $(wildcard git/*.go) $(wildcard commit/*.go)
 

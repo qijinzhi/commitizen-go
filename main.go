@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/lintingzhen/commitizen-go/cmd"
+	"github.com/qijinzhi/commitizen-go/cmd"
 )
 
 func main() {
